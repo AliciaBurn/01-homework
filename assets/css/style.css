@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    background-color: #ffffff;
+
+}
+
+header {
+    background: #4aaaa5;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #ffffff;
+    float: left;  
+    margin-left: 20%;
+}
+
+
+a:link {
+
+    text-decoration: none;
+}
+
+h2 {
+
+    color: #ffffff;
+    background: #4aaaa5;
+
+}
+
+
+
+footer {
+    
+    position: sticky;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    
+}
