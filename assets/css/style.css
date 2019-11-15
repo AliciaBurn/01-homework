@@ -1,4 +1,4 @@
-header {
+.container-fluid {
     background: #ffffff;
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -7,6 +7,7 @@ header {
     border-bottom-style: solid;
     margin-top: -25px;
     margin-right: -10px;
+    margin-left: -10px;
 }
     
 
@@ -15,15 +16,20 @@ header {
     padding: 20px;
     background-color: #4aaaa5;
     margin-left: 225px;
+    margin-right: 1050px;
+    text-align: center;
 }
 
 
 
 body {
-    background-image: url(../images/positive.png);
-    background-color: #ffffff;
+    background-image: url(../images/hotel-wallpaper.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777; 
+}
+
+main {
+    width: 960px;
 }
 
 
@@ -32,7 +38,16 @@ body {
     display: inline;
     color: #777777;
     text-decoration: none;
+    float: right;
 }
+
+img {
+    width: 150px;
+    padding: 20px;
+}
+
+
+
 a {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -60,20 +75,37 @@ hr {
     height: medium;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: auto;
     background-color: #cccccc;
 }
 
+input,
+textarea {
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #999;
+}
 
+textarea {
+        vertical-align: top;
+        height: 5em;
+}
+
+button {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
 
 footer {
     
-    position: sticky;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
     text-align: center;
     color: #b8b5b5;
     font-size: 10px;
     padding-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
     
 }
