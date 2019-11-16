@@ -1,24 +1,25 @@
 .container-fluid {
     background: #ffffff;
-    color: #ffffff;
+    color: #ffffff; 
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     border-bottom-color: #cccccc;
     border-bottom-width: medium;
     border-bottom-style: solid;
     margin-top: -25px;
     margin-right: -10px;
-    margin-left: -10px;
+    margin-left: -10px;    
 }
     
 
 .name {
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     background-color: #4aaaa5;
     margin-left: 225px;
     margin-right: 1050px;
     text-align: center;
 }
+
 
 
 
@@ -28,8 +29,9 @@ body {
     color: #777777; 
 }
 
-main {
+.main {
     width: 960px;
+    background-color: #ffffff;
 }
 
 
@@ -38,15 +40,13 @@ main {
     display: inline;
     color: #777777;
     text-decoration: none;
-    float: right;
+    text-align: right;
 }
 
 img {
     width: 150px;
     padding: 20px;
 }
-
-
 
 a {
     color: #777777;
@@ -82,7 +82,7 @@ hr {
 input,
 textarea {
         font: 1em sans-serif;
-        width: 300px;
+        width: 95%;
         box-sizing: border-box;
         border: 1px solid #999;
 }
@@ -92,10 +92,13 @@ textarea {
         height: 5em;
 }
 
-button {
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
+.form-submit-button {
+
+    background: #4aaaa5;
+    color: white;
+    height: 25px;
+    width: 100px;
+ }
 
 footer {
     
