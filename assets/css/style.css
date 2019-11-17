@@ -24,11 +24,13 @@ body {
 
 .name {
     color: #ffffff;
-    padding: 20px;
     background-color: #4aaaa5;
-    margin: 0px ;
     text-align: center;
     margin-right: 400px;
+    margin-left: 200px;
+    padding: 10px;
+    max-width: 200px;
+    float: left;
 }
 
 .navbar {
@@ -36,18 +38,31 @@ body {
     display: inline;
     color: #777777;
     text-align: right;
+    padding: 300px;
 }
 
 .main {
     width: 960px;
     background-color: #ffffff;
+    padding: 30px;
+}
+
+.myImage{
+    width: 150px;
+    height: 225px;
 }
 
 img {
     width: 200px;
+    height: 200px;
     padding: 20px;
+    float: left;
 }
 
+p {
+    font-size: large;
+    line-height: 150%;
+}
 
 a {
     color: #777777;
@@ -90,7 +105,7 @@ table {
     position: relative;
 }
 
-h5{
+h5 {
     position: absolute;
     bottom: 5px;
     right: 65px;
@@ -116,7 +131,6 @@ textarea {
 }
 
 .form-submit-button {
-
     background: #4aaaa5;
     color: white;
     height: 25px;
@@ -124,14 +138,11 @@ textarea {
  }
 
 footer {
-    flex-shrink: 0;
+    margin-left: -10px;
+    margin-right: -10px;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
     text-align: center;
-    color: #b8b5b5;
-    font-size: 10px;
-    padding-top: 10px;
-    margin-left: -10px;
-    margin-right: -10px;
-    
+    color: #b8b5b5; 
+    font-size: x-small;
 }
